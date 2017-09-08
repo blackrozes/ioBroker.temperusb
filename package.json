@@ -1,0 +1,51 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/opt/iobroker/iobroker.temperusb",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/opt/iobroker/iobroker.temperusb",
+        "spec": "/opt/iobroker/iobroker.temperusb",
+        "type": "directory"
+      },
+      "/opt"
+    ]
+  ],
+  "_from": "iobroker.temperusb",
+  "_id": "iobroker.temperusb@0.0.1",
+  "_inCache": true,
+  "_location": "/iobroker.temperusb",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/opt/iobroker/iobroker.temperusb",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/opt/iobroker/iobroker.temperusb",
+    "spec": "/opt/iobroker/iobroker.temperusb",
+    "type": "directory"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:iobroker.temperusb",
+  "_shasum": "d13e4387005897709a9950ba8eb132e94b582b29",
+  "_shrinkwrap": null,
+  "_spec": "/opt/iobroker/iobroker.temperusb",
+  "_where": "/opt",
+  "author": {
+    "name": "Joachim Daub",
+    "email": "enzcoast@yahoo.de"
+  },
+  "dependencies": {},
+  "description": "temperusb",
+  "devDependencies": {},
+  "license": "MIT",
+  "main": "main.js",
+  "name": "iobroker.temperusb",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "version": "0.0.1"
+}

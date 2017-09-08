@@ -1,0 +1,33 @@
+{
+    "common": {
+        "name": "temperusb",
+        "version": "0.0.1",
+        "news": {
+            "0.0.1": {
+                "en": "Initial Version",
+                "de": "Erster Version"
+            }
+        },
+        "title": "Reads out TEMPer USB sensor data",
+        "desc": {
+            "en": "Reads out TEMPer USB sensor data",
+            "de": "Gibt TEMPer USB Sensor Daten aus"
+        },
+        "platform": "Javascript/Node.js",
+        "mode": "daemon",
+        "icon": "temperusb.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/blackrozes/ioBroker.temperusb/master/admin/temperusb.png",
+        "keywords": ["usb", "temper", "sensor"],
+        "loglevel": "info",
+        "type": "hardware"
+    },
+    "native": {
+        "updateIntervall": 300,
+		"offset": 0,
+		"scale": 1,
+        "degreef": 1
+    },
+    "objects": [
+    ]
+}
