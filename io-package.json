@@ -8,7 +8,7 @@
                 "de": "Erster Version"
             }
         },
-        "title": "Reads out TEMPer USB sensor data",
+        "title": "TEMPer USB Adapter",
         "desc": {
             "en": "Reads out TEMPer USB sensor data",
             "de": "Gibt TEMPer USB Sensor Daten aus"
