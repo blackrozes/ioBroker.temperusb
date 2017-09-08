@@ -24,9 +24,9 @@
     },
     "native": {
         "updateIntervall": 300,
-		"offset": 0,
-		"scale": 1,
-        "degreef": 1
+	"offset": 0,
+	"scale": 1,
+        "degreef": 0
     },
     "objects": [
     ]
