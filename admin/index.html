@@ -22,7 +22,23 @@
 <link rel="stylesheet" type="text/css" href="../../css/adapter.css"/>
 <script type="text/javascript" src="../../js/translate.js"></script>
 <script type="text/javascript" src="../../js/adapter-settings.js"></script>
-<script type="text/javascript" src="words.js"></script>
+<script type="text/javascript">
+
+// Dictionary (systemDictionary is global variable from adapter-settings.js)
+systemDictionary = {
+	"Update interval in seconds": {"de": "Aktualisierungsintervall in Sekunden"},
+	"°F instead of °C": {"de": "°F statt °C"},
+	"Scale": {"de": "Faktor"},
+	"Some output needs to be calibrated": {"de": "Manche Geräte müssen kalibriert werden"},
+	"value = (value*Scale)+Offset": {"de": "value = (value*Faktor)+Anpassung"},
+	"Offset": {"de": "Anpassung"},
+	"on save adapter restarts with new config immediately": {
+		"de": "Beim Speichern von Einstellungen der Adapter wird sofort neu gestartet.",
+		"ru": "При сохранении настроек адаптера он сразу же перезапускается"
+	}
+};	
+	
+</script>
 
 
 <!-- you have to define 2 functions in the global scope: -->
