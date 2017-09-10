@@ -83,10 +83,10 @@ temper.updateDevice = function(dev,i) {
 			value = temper.celsiusToFahrenheit(value);
 		}
 		
-		value = (value*scale)+offset;
+		value = (value*scale)+parseFloat(offset);
 		
 		if(err === null) {
-			adapter.setState("temper"+i, value.toFixed(1));
+			adapter.setState("temper"+i, parseFloat(value).toFixed(1));
 		} else {
 			adapter.log.error("Error: "+value);
 		}
