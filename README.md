@@ -14,6 +14,9 @@ This adapter is based on [Temper1](https://github.com/asmuelle/node-temper1)
 
 Installation
 ----------------
+ 
+     npm install https://github.com/blackrozes/iobroker.temperusb/tarball/master
+
  iobroker.temperusb Requires [node-hid](https://github.com/node-hid/node-hid).
  
  Installation on Raspberry Pi please see https://github.com/node-hid/node-hid#compiling-from-source
